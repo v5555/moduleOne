@@ -3,20 +3,19 @@ import java.util.Scanner;
 public class OptimalniiVes {
 
 	public static void main(String[] args) {
-		int weight = 1;
-        int growth = 1;
-        int a = 100;
-        int b = (weight-a);
+		int b = 100;
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter your weight");
-        weight = sc.nextInt();
-        System.out.println("Please enter your growth");
-        growth = sc.nextInt();
-        sc.close();
-        if (b<=growth) {
-                System.out.println("You so FAT!");
-        } else {
-        System.out.println("Your growth is normal. Keep calm and eat");
-        }
-}
+        int ves = sc.nextInt();
+        System.out.println("Please enter your height");
+        int height = sc.nextInt();
+        int optimaVes = (height - b);
+        if ( ves <= optimaVes ) {
+			System.out.println("It`s OK. keep calm and go eat");
+		} else {
+				System.out.println("You Fat. You need go to fitness or not eating after midnight. And throw your refrigerator");
+		}
+        sc.close();  
+	
+	}
 }
