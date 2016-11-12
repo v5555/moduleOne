@@ -10,9 +10,10 @@ public class dayOfWeek {
 		scan.close();
 		if (day<0 && day>8); {
 			System.out.println(dayOfWeek[day-1]);
-		}  if(day<8); {  System.out.println("Wrong number");
 		}
-		
+		else {
+			
+		}
 	}
 }
 	
