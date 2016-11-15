@@ -23,7 +23,7 @@ public class DayOfWeek {
 				break;
 		case 7: dayString = "Sunday";
 				break;
-			default: dayString = "Wrong number";//* при введени не соответствующего значения выдаеться сообщение
+			default: dayString = "Wrong number";//* при введени не соответствующего значения выдаеться сообщение.
 					break;
 		}
 		scan.close();
