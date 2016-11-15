@@ -8,7 +8,7 @@ public class DayOfWeek {
 		System.out.println("Please enter a number of day");
 		int day = scan.nextInt();
 		String dayString = null;
-		switch (day) {
+		switch (day) {//* метод перебирает введенные значения и выдает соответствующий день.
 		case 1: dayString = "Monday";
 				break;
 		case 2: dayString = "Tuesday";
@@ -23,7 +23,7 @@ public class DayOfWeek {
 				break;
 		case 7: dayString = "Sunday";
 				break;
-			default: dayString = "Wrong number";
+			default: dayString = "Wrong number";//* при введени не соответствующего значения выдаеться сообщение
 					break;
 		}
 		scan.close();
