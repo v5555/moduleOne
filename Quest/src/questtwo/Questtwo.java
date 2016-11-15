@@ -1,6 +1,6 @@
 package questtwo;
 
-public class questtwo {
+public class Questtwo {
 
 	public static void main(String[] args) {
 			String a = ("Добрый день. Как ваши дела? Вы придете сегодня на ужин?");
@@ -8,7 +8,7 @@ public class questtwo {
 			System.out.println(x);// вывод количества символов в string a
 		}
 			String b = a.substring(0, a.length() /2); //делит строку на две части
-			String c = a.substring(28, a.length());// указывает от каккого символа начинать исчисление
+			String c = a.substring(28, a.length());// указывает от какого символа начинать исчисление
 			System.out.println(b);
 			System.out.println(c);
 			}
