@@ -1,21 +1,36 @@
 package questtwo;
 import java.util.Scanner;
-public class dayOfWeek {
+public class DayOfWeek {
 
 	public static void main(String[] args) {
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a number of day");
 		int day = scan.nextInt();
-		String[] dayOfWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+		String dayString = null;
+		switch (day) {
+		case 1: dayString = "Monday";
+				break;
+		case 2: dayString = "Tuesday";
+				break;
+		case 3: dayString = "Wednesday";
+				break;
+		case 4: dayString = "Thusday";
+				break;
+		case 5: dayString = "Friday";
+				break;
+		case 6: dayString = "Saturday";
+				break;
+		case 7: dayString = "Sunday";
+				break;
+			default: dayString = "Wrong number";
+					break;
+		}
 		scan.close();
-		if (day<0 && day>8); {
-			System.out.println(dayOfWeek[day-1]);
-		}
-		else {
-			
-		}
+		System.out.println(dayString);
 	}
 }
+
 	
 		
 
