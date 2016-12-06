@@ -8,9 +8,9 @@ public class Numbers {
 		float result = 1;
 		Scanner sc = new Scanner(System.in);
 		String res = "";
-		System.out.println("Enter the number");
+		System.out.println("Enter 1 the number");
 		a = sc.nextInt();
-		System.out.println("Enterr the number");
+		System.out.println("Enterr 2 the number");
 		b = sc.nextInt();
 		while (a==0) {
 			System.out.println("Wrong number. Please enter correct number");

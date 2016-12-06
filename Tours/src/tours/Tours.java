@@ -1,9 +1,11 @@
 package tours;
 import java.util.Calendar;
+
 public class Tours {
-	private int price;
-	private String hotel;
-	private void date() {
+	 int price;
+	 String hotel;
+	 int numbersOfStars;
+	public void date() {
 		
 	}
 		static void transport (String [] args) {
