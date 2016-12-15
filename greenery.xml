@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<greenery>
+	<flower>
+		<name>Rose</name>
+		<origin>France</origin>
+		<multiplying>Seed</multiplying>
+			<visual>
+				<soil>Priming</soil>
+				<color>Green</color>
+				<averangesize>120</averangesize>
+				<unit>cm</unit>
+			</visual>
+			<growingtype>
+				<temperature>25</temperature>
+				<unittemp>Celsius</unittemp>
+				<watering>125</watering>
+				<unitwatering>ml</unitwatering>
+			</growingtype>
+	</flower>
+	<flower>
+		<name>Hrisontem</name>
+		<origin>Belgium</origin>
+		<multiplying>stalk</multiplying>
+			<visual>
+				<soil>Podzolic</soil>
+				<color>Light green</color>
+				<averangesize>80</averangesize>
+				<unit>cm</unit>
+			</visual>
+			<Growingtype>
+				<temperature>28</temperature>
+				<unittemp>Celsius</unittemp>
+				<watering>140</watering>
+				<unitwatering>ml</unitwatering>
+			</Growingtype>
+	</flower>
+</greenery>
+	
